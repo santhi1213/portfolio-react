@@ -1,0 +1,207 @@
+.image_me{
+    width: 25%;
+    height: 100%;
+    padding-right: 8%;
+}
+.title{
+   margin-top: -35%;
+   margin-left: 35%;
+   width: 40%;
+   padding: 2%;
+}
+.title h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -2%;
+}
+.title h3{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.title p{
+    margin-top: -15%;
+    margin-left: 1%;
+    font-size: 20px;
+}
+#comp_icon{
+    margin-left: 10px;
+}
+.vertical_line{
+    height: 100px;
+    width: 0;
+    margin-top: -2%;
+    border: 1px solid white;
+}
+.social_icons{
+    margin-left: 93%;
+}
+#whatsapp{
+    margin-top: -380%;
+}
+#whatsapp i, #linkedin i, #telegram i, #youtube i, #instagram i{
+    font-size: 38px;
+    margin: 20%;
+    color: rgb(135, 135, 135);
+}
+#whatsapp i:hover{
+    color: rgb(95, 233, 70);
+}
+#instagram i:hover{
+    color: rgb(223, 53, 53);
+}
+#linkedin i:hover{
+    color: rgb(40, 40, 191);
+}
+#telegram i:hover{
+    color: rgb(106, 106, 250);
+}
+#youtube i:hover{
+    color: rgb(248, 5, 5);
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .image_me{
+        height: 500px;
+        width: 300px;
+    }
+    .title{
+        margin-left: 50%;
+        margin-top: -50%;
+    }
+    .title h3{
+        font-size: 20px;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+    .title p{
+        margin-top: -30%;
+        margin-left: 3%;
+    }
+    .social_icons{
+        margin-left: 25%;
+        margin-top: 20%;
+        display: flex;
+        gap: 40px;
+    }
+    #whatsapp{
+        margin-top: 0%;
+    }
+}
+
+
+@media only screen and (max-width:1000px) {
+    .image_me{
+        height: 500px;
+        width: 300px;
+    }
+    .title{
+        margin-left: 43%;
+        margin-top: -40%;
+    }
+    .title h3{
+        font-size: 28px;
+        width: max-content;
+    }
+    .title h1{
+        font-size: 40px;
+        margin-bottom:10%;
+    }
+    .title p{
+        margin-top: -24%;
+        margin-left: 3%;
+    }
+    .social_icons{
+        margin-left: 35%;
+        margin-top: 10%;
+        display: flex;
+        gap: 40px;
+    }
+    #whatsapp{
+        margin-top: 0%;
+    }
+}
+
+@media only screen and  (max-width:1100px) {
+    .image_me{
+        height: 500px;
+        width: 300px;
+    }
+    .title{
+        margin-left: 43%;
+        margin-top: -40%;
+    }
+    .title h3{
+        font-size: 35px;
+        width: max-content;
+    }
+    .title h1{
+        font-size: 40px;
+        margin-bottom:10%;
+    }
+    .title p{
+        margin-top: -21%;
+        margin-left: 3%;
+    }
+    .social_icons{
+        margin-left: 35%;
+        margin-top: 10%;
+        display: flex;
+        gap: 50px;
+    }
+    #whatsapp{
+        margin-top: 0%;
+    }
+}
+
+
+@media only screen and  (max-width:1200px) {
+    .image_me{
+        height: 500px;
+        width: 300px;
+    }
+    .title{
+        margin-left: 40%;
+        margin-top: -40%;
+    }
+    .title h3{
+        font-size: 35px;
+        width: max-content;
+    }
+    .title h1{
+        font-size: 40px;
+        margin-bottom:10%;
+    }
+    .title p{
+        margin-top: -21%;
+        margin-left: 3%;
+    }
+   
+}
+
+@media only screen and (max-width:1300px) {
+    .image_me{
+        height: 500px;
+        width: 300px;
+    }
+    .title{
+        margin-left: 35%;
+    }
+    .title h3{
+        font-size: 35px;
+        width: max-content;
+    }
+    .title h1{
+        font-size: 40px;
+        margin-bottom:10%;
+    }
+    .title p{
+        margin-top: -21%;
+        margin-left: 3%;
+    }
+}
+
