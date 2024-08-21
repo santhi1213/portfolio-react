@@ -97,7 +97,9 @@
 
 @media only screen and (min-width:320px) {
     .contact{
-        margin-top: 950px;
+        margin-top: 1000px;
+        width: 90%;
+        margin-left: 5%;
     }
     .contact-left{
         padding: 10% 2%;

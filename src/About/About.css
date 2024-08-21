@@ -39,13 +39,14 @@
         margin: 10% 0px;
     }
     .about_page div p{
-        width: 100%;
-        margin: 0% 3%;
+        width: 90%;
+        margin: 0% 8%;
     }
     .about_img{
         border-radius: 0%;
-        margin: 3% 6%;
+        margin: 4% 10%;
         height: 300px;
+        width: 400px;
     }
 }
 

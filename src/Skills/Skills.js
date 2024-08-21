@@ -55,7 +55,7 @@ const Skills = () =>{
                             <img src={WordPress} alt="Image 8" />
                             <p>WordPress</p>
                         </div>
-                        <h1 style={{textAlign:'center',justifyContent:'center',marginTop:'45%'}}>Technical<br/> Skills</h1>
+                        <h1  className="technical-title">Technical<br/> Skills</h1>
                         <div className="rotate-ball"></div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Skills = () =>{
                             <img src={TimeManagement} alt="Image 5" />
                             <p className="caption">Time <br/>Management</p>
                         </div>
-                        <h1 style={{textAlign:'center',justifyContent:'center',marginTop:'45%'}}>Soft<br/> Skills</h1>
+                        <h1>Soft<br/> Skills</h1>
                         <div className="rotate-ball1"></div>
                     </div>
                 </div>
