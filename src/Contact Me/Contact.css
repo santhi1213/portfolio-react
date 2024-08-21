@@ -132,7 +132,10 @@
         padding: 1% 2%;
     }
     .form input{
-        height: 25px;
+        height: 28px;
+    }
+    .form button{
+        width: 65%;
     }
     .form .message-field{
         height: 50px;
