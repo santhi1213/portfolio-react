@@ -72,12 +72,13 @@ body{
         flex-direction: column;
     }
     .image_me{
-        margin: 0% 20%;
+        margin-left: 20%;
         padding: 0;
         width: 50%;
     }
     .title{
-        margin: 0% 3%;
+        margin-top: 2%;
+        margin-left: 0;
         width: 100%;
     }
     .title h3{
