@@ -19,7 +19,8 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	width: 100vw;
+	width: 98vw;
+	margin-left: 7px;
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
