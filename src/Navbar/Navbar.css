@@ -14,13 +14,16 @@
 	--textColor: #eee;
 }
 
+body{
+	width: 93vw;
+}
+
 header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	width: 98vw;
-	margin-left: 7px;
+	width: 97vw;
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
@@ -58,6 +61,8 @@ nav {
 	display: flex;
 	align-items: center;
 }
+
+
 
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
