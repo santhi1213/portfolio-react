@@ -15,8 +15,7 @@ import TeamWork from '../images/teamWork.png';
 import TimeManagement from '../images/TimeManagement.png';
 
 const Skills = () =>{
-    const images = [ HTML,CSS,JS,Python,Node,react,SQL,WordPress ];
-    const images1 = [CriticalThinking, EffectiveCommunication,MultiTasking,TeamWork, TimeManagement];
+   
 
     return(
         <div className="skills" id="skills">
@@ -24,48 +23,73 @@ const Skills = () =>{
             <div className="skills-container">
                 <div className="technical-skills">
                     <div className="circle-container">
-                        {images.map((src, index) => (
-                            
-                                <div key={index} className="circle-image">
-                                    <img src={src} alt={`Circle ${index + 1}`} />
-                                </div>
-                        ))}
-                        <span className="rotate-ball"></span>
-                        <h1>Technical <br/>skills</h1>
+                        <div className="circle-item">
+                            <img src={HTML} alt="Image 1" />
+                            <p>HTML</p>
+                        </div>
+                        <div className="circle-item">
+                            <img src={CSS} alt="Image 2" />
+                            <p>CSS</p>
+                        </div>
+                        <div className="circle-item">
+                            <img src={JS} alt="Image 3" />
+                            <p>JS</p>
+                        </div>
+                        <div className="circle-item">
+                            <img src={Python} alt="Image 4" />
+                            <p>Python</p>
+                        </div>
+                        <div className="circle-item">
+                            <img src={Node} alt="Image 5" />
+                            <p>Node JS</p>
+                        </div>
+                        <div className="circle-item">
+                            <img src={react} alt="Image 6" />
+                            <p>React</p>
+                        </div>
+                        <div className="circle-item">
+                            <img src={SQL} alt="Image 7" />
+                            <p>SQL</p>
+                        </div>
+                        <div className="circle-item">
+                            <img src={WordPress} alt="Image 8" />
+                            <p>WordPress</p>
+                        </div>
+                        <h1 style={{textAlign:'center',justifyContent:'center',marginTop:'45%'}}>Technical<br/> Skills</h1>
+                        <div className="rotate-ball"></div>
                     </div>
-                </div>
-                <div>
-                <p className="html-skill">HTML</p>
-                <p className="css-skill">CSS</p>
-                <p className="js-skill">JS</p>
-                <p className="python-skill">Python</p>
-                <p className="node-skill">Node</p>
-                <p className="react-skill">React</p>
-                <p className="sql-skill">SQL</p>
-                <p className="wordpress-skill">WordPress</p>
                 </div>
               
 
 
-
                 <div className="soft-skills">
-                <div className="circle-container1">
-                        {images1.map((src, index) => (
-                                <div key={index} className="circle-image1">
-                                    <img src={src} alt={`Circle ${index + 1}`} />
-                                </div>
-                        ))}
-                        <span className="rotate-ball1"></span>
-                        <h1 style={{fontSize:'50px'}}>Soft <br/>skills</h1>
+                    <div className="circle-container1">
+                        <div className="circle-item1" >
+                            <img src={CriticalThinking} alt="Image 1" />
+                            <p className="caption">Critical <br/>Thinking</p>
+                        </div>
+                        <div className="circle-item1">
+                            <img src={EffectiveCommunication} alt="Image 2" />
+                            <p className="caption">Effective<br/> Communication</p>
+                        </div>
+                        <div className="circle-item1" >
+                            <img src={MultiTasking} alt="Image 3" />
+                            <p className="caption">Multi<br/> Tasking</p>
+                        </div>
+                        <div className="circle-item1" >
+                            <img src={TeamWork} alt="Image 4" />
+                            <p className="caption">Team Work</p>
+                        </div>
+                        <div className="circle-item1" >
+                            <img src={TimeManagement} alt="Image 5" />
+                            <p className="caption">Time <br/>Management</p>
+                        </div>
+                        <h1 style={{textAlign:'center',justifyContent:'center',marginTop:'45%'}}>Soft<br/> Skills</h1>
+                        <div className="rotate-ball1"></div>
                     </div>
                 </div>
-                <div>
-                    <p className="criticalThink">Critical Thinking</p>
-                    <p className="communication">Effective <br/>Communication</p>
-                    <p className="multiTasking">Multi Tasking</p>
-                    <p className="teamWork">Team Work</p>
-                    <p className="timeMgmt">Time Management</p>
-                </div>
+
+               
             </div>
         </div>
     )

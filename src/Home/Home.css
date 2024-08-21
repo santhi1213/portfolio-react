@@ -1,3 +1,8 @@
+body{
+    background: linear-gradient(to left bottom, #A9F1DF , #FFBBBB);
+}
+
+
 .image_me{
     width: 25%;
     height: 100%;
@@ -61,4 +66,117 @@
 }
 
 
+@media only screen and (min-width:320px) {
+    .landing_image{
+        display: flex;
+        flex-direction: column;
+    }
+    .image_me{
+        margin: 0% 20%;
+        padding: 0;
+        width: 50%;
+    }
+    .title{
+        margin: 0% 3%;
+        width: 100%;
+    }
+    .title h3{
+        font-size: 30px;
+    }
+    .title h1{
+        font-size: 40px;
+        padding-left: 10%;
+    }
+    .title p{
+        padding-left: 10%;
+        margin-top: -18%;
+    }
+    .title .vertical_line{
+        margin-left: 10%;
+    }
+    .social_icons{
+        display: flex;
+        margin: 0;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+    #whatsapp{
+        margin: 0;
+    }
+}
 
+@media only screen and (min-width:768px) {
+    .landing_image{
+        display: flex;
+        flex-direction: row;
+    }
+    .image_me{
+        margin: 0;
+        height: 500px;
+    }
+    .title{
+        margin-top: 20%;
+        margin-left: 1%;
+    }
+    .title h3{
+        font-size: 28px;
+    }
+    .title p{
+        margin-top: -25%;
+    }
+    .vertical_line{
+        margin-top: 10%;
+    }
+    .social_icons{
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .title{
+        margin-left: 4%;
+        margin-top: 18%;
+        width: 100%;
+    }
+    .title h1{
+        font-size: 50px;
+        margin-bottom: 12%;
+    }
+    .title h3{
+        font-size: 40px;
+    }
+    .title p{
+        margin-top: -20%;
+    }
+    .vertical_line{
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .title{
+        margin-top: 10%;
+    }
+    .title p{
+        margin-top: -11%;
+        padding-left: 0;
+    }
+    .title h1{
+        padding-left: 0;
+    }
+    .image_me{
+        margin-top: 4%;
+    }
+    .social_icons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 90%;
+        margin-top: -30%;
+    }
+    .title .vertical_line{
+        margin-top: -10%;
+        margin-left: 0%;
+    }
+}

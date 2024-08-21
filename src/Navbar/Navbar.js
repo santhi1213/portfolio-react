@@ -5,36 +5,40 @@ import profile from "../logos/mine.png";
 import { motion } from "framer-motion";
 import Aos from "aos";
 import 'aos/dist/aos.css'
+import Hamburger from '../images/hamburger-icon.png';
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar(){
-  useEffect(()=>{
-    Aos.init()
-  })
+  const navRef = useRef();
+
+	const showNavbar = () => {
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
+	};
     return(
-    <div className="Navbar" data-aos= 'fade-down'>
-        <a href="#"><img src={Logo} className="logo" alt=""/></a>
-       <ul data-aos = 'fade-left'>
-        <motion.button whileTap={{ scale: 0.85 }} className="nav-items">
-          <li><a href="#home" style={{textDecoration:'none', color:'black'}}>Home</a></li>
-        </motion.button>
-        <motion.button whileTap={{ scale: 0.85 }} className="nav-items">
-          <li><a href="#projects" style={{textDecoration:'none', color:'black'}}>Projects</a></li>
-        </motion.button>
-        <motion.button whileTap={{ scale: 0.85 }} className="nav-items">
-          <li><a href="#skills" style={{textDecoration:'none', color:'black'}}>Skills</a></li>
-        </motion.button>
-        <motion.button whileTap={{ scale: 0.85 }} className="nav-items">
-          <li><a href="https://drive.google.com/file/d/1ixc-GbNPxabQv81KQJj_IjysbrIzIPBY/view?usp=drive_link" style={{textDecoration:'none', color:'black'}}>Resume</a></li>
-        </motion.button>
-        <motion.button whileTap={{ scale: 0.85 }} className="nav-items">
-          <li><a href="#contact" style={{textDecoration:'none', color:'black'}}>Contact Me</a></li>
-        </motion.button>
-        <motion.button whileTap={{ scale: 0.85 }} className="nav-items">
-          <li><a href="#about" style={{textDecoration:'none', color:'black'}}>About Me</a></li>
-        </motion.button>
-        </ul>
-        <img src={profile} className="profile" alt=""/>
-    </div>
+      <header>
+			  <img src={Logo}/>
+        <nav ref={navRef}>
+          <a href="#">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="/#">Resume</a>
+          <a href="#contact">Contact Me</a>
+          <a href="#about">About me</a>
+          <button
+            className="nav-btn nav-close-btn"
+            onClick={showNavbar}>
+            <FaTimes />
+          </button>
+        </nav>
+        <button
+          className="nav-btn"
+          onClick={showNavbar}>
+          <FaBars />
+        </button>
+		  </header>
     )
 }
 

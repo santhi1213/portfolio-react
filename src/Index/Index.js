@@ -7,6 +7,7 @@ import Skills from "../Skills/Skills";
 import Contact from "../Contact Me/Contact";
 import Footer from '../Footer/Footer'
 
+
 const Index = () =>{
     return(
         <>
@@ -17,6 +18,7 @@ const Index = () =>{
             <About/>
             <Contact/>
             <Footer/>
+          
         </>
     )
 }

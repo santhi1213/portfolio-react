@@ -27,3 +27,61 @@
     margin-top: 25%;
     margin-bottom: 10%;
 }
+
+
+@media only screen and (min-width:320px) {
+    .about_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_page div h1{
+        text-align: center;
+        margin: 10% 0px;
+    }
+    .about_page div p{
+        width: 100%;
+        margin: 0% 3%;
+    }
+    .about_img{
+        border-radius: 0%;
+        margin: 3% 6%;
+        height: 300px;
+    }
+}
+
+@media  only screen and (min-width:768px) {
+    .about_img{
+        margin-left: 25%;
+    }
+    .about_page div p{
+        width: 95%;
+        margin: 0% 6%;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .about_page div p{
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .about_page{
+        display: flex;
+        flex-direction: row;
+    }
+    .about_page div h1{
+        margin-left: 50%;
+    }
+    .about_page div p{
+        width: 90%;
+        margin-top: 0;
+    }
+    .about_img{
+        margin-top: 40%;
+        margin-left: 0;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+    }
+}

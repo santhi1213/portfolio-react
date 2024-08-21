@@ -49,6 +49,10 @@
     outline: none;
 }
 
+.form .message-field{
+    height: 90px;
+}
+
 .form input:hover{
     background-color: rgb(230, 255, 247);
 }
@@ -88,4 +92,139 @@
     width: 70px;
     height: 50px;
     margin-top: 20px;
+}
+
+
+@media only screen and (min-width:320px) {
+    .contact{
+        margin-top: 950px;
+    }
+    .contact-left{
+        padding: 10% 2%;
+    }
+    .contact-right{
+        padding-left: 10%;
+    }
+    .contact-left h1{
+        font-size: 15px;
+    }
+    .contact-left p{
+        font-size: 13px;
+    }
+    .contact-mail img{
+        width: 40px;
+    }
+    .contact-mail h4{
+        font-size: 11px;
+        margin-top: 12%;
+    }
+    .contact-phone img{
+        width: 50px;
+    }
+    .contact-phone h4{
+        font-size: 11px;
+        margin-top: 13%;
+    }
+    .form{
+        width: 100%;
+        padding: 1% 2%;
+    }
+    .form input{
+        height: 25px;
+    }
+    .form .message-field{
+        height: 50px;
+    }
+}
+
+
+@media only screen and (min-width:768px) {
+    .contact{
+        margin-left: 7%;
+    }
+    .contact-left{
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    .contact-left h1{
+        font-size: 25px;
+    }
+    .contact-left p{
+        font-size: 16px;
+    }
+    .contact-mail img{
+        width: 50px;
+    }
+    .contact-mail h4{
+        font-size: 12px;
+    }
+    .contact-phone img{
+        width: 60px;
+    }
+    .contact-phone h4{
+        font-size: 12px;
+    }
+    .form input{
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .contact{
+        width: 95%;
+        margin-left: 2%;
+    }
+    .contact-left{
+        padding-left: 10%;
+    }
+    .contact-right{
+        margin: 0;
+        padding: 0% 5%;
+    }
+    .contact-left h1{
+        font-size: 28px;
+    }
+    .contact-mail img{
+        width: 60px;
+    }
+    .contact-mail h4{
+        font-size: 14px;
+        margin-top: 10%;
+    }
+    .contact-phone img{
+        width: 70px;
+    }
+    .contact-phone h4{
+        font-size: 14px;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .contact{
+        margin-top: 50%;
+    }
+    .contact-left h1{
+        font-size: 33px;
+        margin-bottom: 10px;
+    }
+    .form{
+        padding: 4% 0%;
+    }
+    .contact-mail img{
+        width: 70px;
+        margin-top: 8%;
+    }
+    .contact-mail h4{
+        font-size: 16px;
+        margin-top: 10%;
+    }
+    .contact-phone img{
+        width: 80px;
+        margin-top: 9%;
+    }
+    .contact-phone h4{
+        font-size: 16px;
+        margin-top: 10%;
+    }
 }

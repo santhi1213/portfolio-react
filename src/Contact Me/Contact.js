@@ -31,7 +31,7 @@ const Contact = () =>{
                         <input type="text" name="name" placeholder="Enter your Full Name"/>
                         <input type="email" name="email" placeholder="Email ID"/>
                         <input type="text" name="subject" placeholder="Subject"/>
-                        <input type="text" name="message" placeholder="Enter your message" style={{height:'90px'}}/>
+                        <input type="text" name="message" className="message-field" placeholder="Enter your message" />
                         <button>Send Message</button>
                     </form>
                 </div>
