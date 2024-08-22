@@ -40,6 +40,8 @@ body{
 }
 .social_icons{
     margin-left: 93%;
+    z-index: 1;
+    
 }
 #whatsapp{
     margin-top: -380%;

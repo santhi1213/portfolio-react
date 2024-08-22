@@ -27,20 +27,20 @@ const Data=[
         img : Ecommerce,
         title : "E-commerce website",
         technologies : 'React JS, HTML, CSS',
-        link : "e-commerce-phi-five-89.vercel.app"
+        link : "https://e-commerce-phi-five-89.vercel.app"
 
     },
     {
         img : MovieSite,
         title : 'Movies Website',
         technologies : "React JS, HTML, CSS",
-        link : "movie-site-three-snowy.vercel.app"
+        link : 'https://movie-site-three-snowy.vercel.app'
     },
     {
         img : TicTacToe,
         title : 'Tic Tac Toe Game',
         technologies : "React JS, HTML, CSS",
-        link : "tic-iota-sage.vercel.app"
+        link : 'https://tic-iota-sage.vercel.app/'
     },
     {
         img : TodoList,

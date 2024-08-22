@@ -24,7 +24,7 @@ function Navbar(){
           <a href="#">Home</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
-          <a href="/#">Resume</a>
+          <a href="https://drive.google.com/file/d/1_7bXgz4kOdQytzay6gYnTyZirPYzlUj4/view?usp=drive_link">Resume</a>
           <a href="#contact">Contact Me</a>
           <a href="#about">About me</a>
           <button

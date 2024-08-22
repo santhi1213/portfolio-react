@@ -23,6 +23,7 @@ header {
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
+	z-index: 2;
 }
 
 header img{
@@ -78,6 +79,7 @@ nav {
 		gap: 1.5rem;
 		background-color: var(--mainColor);
 		transition: 1s;
+		z-index: 2;
 	}
 
 	header .responsive_nav {

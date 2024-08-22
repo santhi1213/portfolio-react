@@ -401,4 +401,88 @@
   .skills h1{
     margin-bottom: 5%;
   }
+  .technical-skills{
+    width: 400px;
+    height: 400px;
+  }
+  .soft-skills{
+    width: 400px;
+    height: 400px;
+  }
+  .circle-item1:nth-child(1) {
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circle-item1:nth-child(2) {
+    top: 35%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-item1:nth-child(3) {
+    top: 75%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-item1:nth-child(4) {
+    top: 75%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-item1:nth-child(5) {
+    bottom: 55%;
+    left: 5%;
+    transform: translateX(-50%);
+  }
+  .circle-item:nth-child(1) {
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circle-item:nth-child(2) {
+    top: 25%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-item:nth-child(3) {
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-item:nth-child(4) {
+    top: 77%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-item:nth-child(5) {
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circle-item:nth-child(6) {
+    top: 77%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-item:nth-child(7) {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle-item:nth-child(8) {
+    top: 25%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+  }
 }
