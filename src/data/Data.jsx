@@ -153,7 +153,7 @@ const Data=[
     {
         img : EcommerceWordpress,
         title : "Ecommerce Website",
-        technologies : "HTML, CSS, JavaScript",
+        technologies : "WordPress",
         link : "https://dev-shopstraight.pantheonsite.io"
     },
     {
